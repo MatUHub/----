@@ -1,28 +1,129 @@
-a {
-color: cornflowerblue;
-font-size: 16px;
-line-height: 20px;
-    }
-
-h1{
-color: #222222;
-font-size: 28px;
-line-height: 36px;
-font-weight: bold;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-p{
+a{
+    text-decoration: none;
+}
+
+.header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header_logo{
+    display: inline;
+margin-top: 45px;
+margin-left: 375px;
+}
+.header_text{
+    display:inline;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    color: #7D7987;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+margin-left: 14px;
 }
 
-h2{
-    color: coral;
+.header_text_be{
+    color: #F25822;
+font-family: Gilroy-Bold;
+font-size: 24px;
 font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 80px;
+font-weight: 400;
+line-height: normal;
+margin-left: 0;
+}
+.header_menu{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 51px;
+    margin-left: 20px;
+    
+}
+.header_menu_home{
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 51px;
+    margin-left: 346px;
+    
+}
+.header_button{
+    border-radius: 30px;
+    background: #F25822;
+    margin-top: 40px;
+    margin-left: 34px;
+    width: 120px;
+    height: 40px;
+    border-bottom: 0;
+}
+
+.header_button_text{
+    color: #FFF;
+font-family: Gilroy-SemiBold;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.context{
+    display: inline;
+    padding-left: 373px;
+}
+
+.context_text{
+    display: inline;
+    margin-right: 373px;
+    margin-left: 1025;
+}
+
+.context_text_1{
+    color: #000;
+font-family: Gilroy-Bold;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 373px;
+margin-left: 1025;
+    
+}
+
+.context_text_2{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.context_image{
+    
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px; 
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer_image{
+    margin-left: 345px;
 }
